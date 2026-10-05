@@ -12,14 +12,18 @@ python -m venv .venv
 .venv\Scripts\pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cu121
 ```
 
-The trained weights are **not in this repository** — at 106 MiB the file is over GitHub's
-100 MiB per-file limit. Download `tea_leaf_classifier.pt` from the
-[Releases page](https://github.com/kowshickj-git/Plant-diease-detection/releases) and put it in
-`models/`, or train your own with `train.py` (see [Retrain](#retrain)).
+The trained weights (`models/tea_leaf_classifier.pt`, 106 MiB) are stored with
+[Git LFS](https://git-lfs.com). Install it **before cloning** and the file comes down with the
+repository:
 
 ```
-models/tea_leaf_classifier.pt
+git lfs install
+git clone https://github.com/kowshickj-git/Plant-diease-detection.git
 ```
+
+If you cloned without Git LFS, `models/tea_leaf_classifier.pt` will be a small text pointer
+instead of the model. Install Git LFS and run `git lfs pull` to fetch the real file. You can
+also train your own with `train.py` (see [Retrain](#retrain)).
 
 ## Web page (easiest: upload a photo in the browser)
 

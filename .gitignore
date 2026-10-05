@@ -10,9 +10,8 @@ __pycache__/
 # and ~57 MB.
 cache/
 
-# Trained weights are 106 MiB, over GitHub's 100 MiB per-file limit. They are
-# published on the Releases page instead; see the README.
-models/*.pt
+# Trained weights (106 MiB) are committed through Git LFS, not ignored --
+# see .gitattributes.
 
 # Annotated output of detect.py. Regenerable from the dataset, so the folder is
 # ignored and a few examples are committed explicitly (git add -f) to show what
