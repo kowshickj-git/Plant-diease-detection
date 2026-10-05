@@ -1,0 +1,23 @@
+# Virtual environment: ~5 GB and tied to this machine. Recreate it with
+#   python -m venv .venv
+#   .venv\Scripts\pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cu121
+.venv/
+
+__pycache__/
+*.pyc
+
+# Leaf cut-outs built by prepare_data.py from the dataset photos. Regenerable,
+# and ~57 MB.
+cache/
+
+# Trained weights are 106 MiB, over GitHub's 100 MiB per-file limit. They are
+# published on the Releases page instead; see the README.
+models/*.pt
+
+# Annotated output of detect.py. Regenerable from the dataset, so the folder is
+# ignored and a few examples are committed explicitly (git add -f) to show what
+# the output looks like.
+test/
+
+# Scratch copies of the page used while testing it.
+web/_*.html

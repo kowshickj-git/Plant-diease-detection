@@ -1,0 +1,405 @@
+{
+  "arch": "tf_efficientnetv2_s.in21k_ft_in1k",
+  "size": 384,
+  "epochs": 30,
+  "folds": 5,
+  "n_images": 299,
+  "n_leaf_groups": 210,
+  "minutes": 16.7,
+  "out_of_fold": {
+    "raw": {
+      "accuracy": 0.9832775919732442,
+      "balanced_accuracy": 0.9843011274093829,
+      "healthy_recall": 0.9863013698630136,
+      "spoiled_recall": 0.9823008849557522,
+      "auc": 0.9990907988847132,
+      "log_loss": 0.11805975026888325,
+      "confusion_matrix[true][pred]": [
+        [
+          72,
+          1
+        ],
+        [
+          4,
+          222
+        ]
+      ],
+      "n": 299
+    },
+    "swapped": {
+      "accuracy": 0.9565217391304348,
+      "balanced_accuracy": 0.9666020123651351,
+      "healthy_recall": 0.9863013698630136,
+      "spoiled_recall": 0.9469026548672567,
+      "auc": 0.9976360771002546,
+      "log_loss": 0.13042002687277204,
+      "confusion_matrix[true][pred]": [
+        [
+          72,
+          1
+        ],
+        [
+          12,
+          214
+        ]
+      ],
+      "n": 299
+    },
+    "neutral": {
+      "accuracy": 0.9698996655518395,
+      "balanced_accuracy": 0.975451569887259,
+      "healthy_recall": 0.9863013698630136,
+      "spoiled_recall": 0.9646017699115044,
+      "auc": 0.9964844223542246,
+      "log_loss": 0.16499263798876515,
+      "confusion_matrix[true][pred]": [
+        [
+          72,
+          1
+        ],
+        [
+          8,
+          218
+        ]
+      ],
+      "n": 299
+    }
+  },
+  "per_fold": [
+    {
+      "raw": {
+        "accuracy": 0.9846153846153847,
+        "balanced_accuracy": 0.9886363636363636,
+        "healthy_recall": 1.0,
+        "spoiled_recall": 0.9772727272727273,
+        "auc": 1.0,
+        "log_loss": 0.17587581276893616,
+        "confusion_matrix[true][pred]": [
+          [
+            21,
+            0
+          ],
+          [
+            1,
+            43
+          ]
+        ],
+        "n": 65
+      },
+      "swapped": {
+        "accuracy": 0.8461538461538461,
+        "balanced_accuracy": 0.8863636363636364,
+        "healthy_recall": 1.0,
+        "spoiled_recall": 0.7727272727272727,
+        "auc": 1.0,
+        "log_loss": 0.33891114592552185,
+        "confusion_matrix[true][pred]": [
+          [
+            21,
+            0
+          ],
+          [
+            10,
+            34
+          ]
+        ],
+        "n": 65
+      },
+      "neutral": {
+        "accuracy": 0.9538461538461539,
+        "balanced_accuracy": 0.9659090909090908,
+        "healthy_recall": 1.0,
+        "spoiled_recall": 0.9318181818181818,
+        "auc": 1.0,
+        "log_loss": 0.1720976084470749,
+        "confusion_matrix[true][pred]": [
+          [
+            21,
+            0
+          ],
+          [
+            3,
+            41
+          ]
+        ],
+        "n": 65
+      }
+    },
+    {
+      "raw": {
+        "accuracy": 0.9841269841269841,
+        "balanced_accuracy": 0.9736842105263157,
+        "healthy_recall": 0.9473684210526315,
+        "spoiled_recall": 1.0,
+        "auc": 1.0,
+        "log_loss": 0.07467811554670334,
+        "confusion_matrix[true][pred]": [
+          [
+            18,
+            1
+          ],
+          [
+            0,
+            44
+          ]
+        ],
+        "n": 63
+      },
+      "swapped": {
+        "accuracy": 0.9841269841269841,
+        "balanced_accuracy": 0.9736842105263157,
+        "healthy_recall": 0.9473684210526315,
+        "spoiled_recall": 1.0,
+        "auc": 1.0,
+        "log_loss": 0.07203949242830276,
+        "confusion_matrix[true][pred]": [
+          [
+            18,
+            1
+          ],
+          [
+            0,
+            44
+          ]
+        ],
+        "n": 63
+      },
+      "neutral": {
+        "accuracy": 0.9841269841269841,
+        "balanced_accuracy": 0.9736842105263157,
+        "healthy_recall": 0.9473684210526315,
+        "spoiled_recall": 1.0,
+        "auc": 1.0,
+        "log_loss": 0.11701978743076324,
+        "confusion_matrix[true][pred]": [
+          [
+            18,
+            1
+          ],
+          [
+            0,
+            44
+          ]
+        ],
+        "n": 63
+      }
+    },
+    {
+      "raw": {
+        "accuracy": 0.9821428571428571,
+        "balanced_accuracy": 0.9895833333333333,
+        "healthy_recall": 1.0,
+        "spoiled_recall": 0.9791666666666666,
+        "auc": 1.0,
+        "log_loss": 0.1063869372010231,
+        "confusion_matrix[true][pred]": [
+          [
+            8,
+            0
+          ],
+          [
+            1,
+            47
+          ]
+        ],
+        "n": 56
+      },
+      "swapped": {
+        "accuracy": 0.9821428571428571,
+        "balanced_accuracy": 0.9895833333333333,
+        "healthy_recall": 1.0,
+        "spoiled_recall": 0.9791666666666666,
+        "auc": 1.0,
+        "log_loss": 0.08171568810939789,
+        "confusion_matrix[true][pred]": [
+          [
+            8,
+            0
+          ],
+          [
+            1,
+            47
+          ]
+        ],
+        "n": 56
+      },
+      "neutral": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "healthy_recall": 1.0,
+        "spoiled_recall": 1.0,
+        "auc": 1.0,
+        "log_loss": 0.10480611026287079,
+        "confusion_matrix[true][pred]": [
+          [
+            8,
+            0
+          ],
+          [
+            0,
+            48
+          ]
+        ],
+        "n": 56
+      }
+    },
+    {
+      "raw": {
+        "accuracy": 0.9682539682539683,
+        "balanced_accuracy": 0.98,
+        "healthy_recall": 1.0,
+        "spoiled_recall": 0.96,
+        "auc": 1.0,
+        "log_loss": 0.1493339240550995,
+        "confusion_matrix[true][pred]": [
+          [
+            13,
+            0
+          ],
+          [
+            2,
+            48
+          ]
+        ],
+        "n": 63
+      },
+      "swapped": {
+        "accuracy": 0.9841269841269841,
+        "balanced_accuracy": 0.99,
+        "healthy_recall": 1.0,
+        "spoiled_recall": 0.98,
+        "auc": 1.0,
+        "log_loss": 0.09130942821502686,
+        "confusion_matrix[true][pred]": [
+          [
+            13,
+            0
+          ],
+          [
+            1,
+            49
+          ]
+        ],
+        "n": 63
+      },
+      "neutral": {
+        "accuracy": 0.9206349206349206,
+        "balanced_accuracy": 0.95,
+        "healthy_recall": 1.0,
+        "spoiled_recall": 0.9,
+        "auc": 1.0,
+        "log_loss": 0.317702054977417,
+        "confusion_matrix[true][pred]": [
+          [
+            13,
+            0
+          ],
+          [
+            5,
+            45
+          ]
+        ],
+        "n": 63
+      }
+    },
+    {
+      "raw": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "healthy_recall": 1.0,
+        "spoiled_recall": 1.0,
+        "auc": 1.0,
+        "log_loss": 0.07302907109260559,
+        "confusion_matrix[true][pred]": [
+          [
+            12,
+            0
+          ],
+          [
+            0,
+            40
+          ]
+        ],
+        "n": 52
+      },
+      "swapped": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "healthy_recall": 1.0,
+        "spoiled_recall": 1.0,
+        "auc": 1.0,
+        "log_loss": 0.040371205657720566,
+        "confusion_matrix[true][pred]": [
+          [
+            12,
+            0
+          ],
+          [
+            0,
+            40
+          ]
+        ],
+        "n": 52
+      },
+      "neutral": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "healthy_recall": 1.0,
+        "spoiled_recall": 1.0,
+        "auc": 1.0,
+        "log_loss": 0.09403527528047562,
+        "confusion_matrix[true][pred]": [
+          [
+            12,
+            0
+          ],
+          [
+            0,
+            40
+          ]
+        ],
+        "n": 52
+      }
+    }
+  ],
+  "background_rule_baseline": {
+    "raw": {
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "healthy_recall": 1.0,
+      "spoiled_recall": 1.0,
+      "auc": 1.0,
+      "log_loss": -0.0,
+      "confusion_matrix[true][pred]": [
+        [
+          73,
+          0
+        ],
+        [
+          0,
+          226
+        ]
+      ],
+      "n": 299
+    },
+    "swapped": {
+      "accuracy": 0.0,
+      "balanced_accuracy": 0.0,
+      "healthy_recall": 0.0,
+      "spoiled_recall": 0.0,
+      "auc": 0.0,
+      "log_loss": 13.815510557964274,
+      "confusion_matrix[true][pred]": [
+        [
+          0,
+          73
+        ],
+        [
+          226,
+          0
+        ]
+      ],
+      "n": 299
+    }
+  }
+}

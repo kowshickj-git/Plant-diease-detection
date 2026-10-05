@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tea Leaf Check</title>
+<style>
+  :root {
+    --bg: #f6f7f4;
+    --panel: #ffffff;
+    --panel-2: #f1f2ee;
+    --line: #dfe2d9;
+    --ink: #1c2118;
+    --ink-2: #5d6557;
+    --healthy: #1a7f3c;
+    --healthy-soft: #e3f3e7;
+    --spoiled: #c5281c;
+    --spoiled-soft: #fcebe8;
+    --damage: #e07b00;
+    --accent: #2f6f4f;
+    --shadow: 0 1px 2px rgba(28, 33, 24, .06), 0 8px 24px rgba(28, 33, 24, .07);
+    --r: 14px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #14170f;
+      --panel: #1d211a;
+      --panel-2: #262b22;
+      --line: #343a2e;
+      --ink: #eef0e9;
+      --ink-2: #a3ab9b;
+      --healthy: #5fd67f;
+      --healthy-soft: #1c3324;
+      --spoiled: #ff8172;
+      --spoiled-soft: #3a211d;
+      --damage: #ffa23d;
+      --accent: #7fc9a0;
+      --shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 10px 30px rgba(0, 0, 0, .35);
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 16px/1.55 ui-sans-serif, system-ui, "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 1020px; margin: 0 auto; padding: 0 16px 72px; }
+
+  /* ---------------------------------------------------------- header */
+  header { padding: 40px 0 26px; }
+  h1 {
+    margin: 0 0 6px;
+    font-size: clamp(27px, 5.2vw, 38px);
+    letter-spacing: -.02em;
+    line-height: 1.1;
+  }
+  .lede { margin: 0; max-width: 62ch; color: var(--ink-2); }
+  .status {
+    display: inline-flex; align-items: center; gap: 8px;
+    margin-top: 16px; padding: 5px 12px 5px 10px;
+    border: 1px solid var(--line); border-radius: 999px;
+    background: var(--panel); font-size: 13.5px; color: var(--ink-2);
+  }
+  .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--ink-2); flex: none; }
+  .status[data-state="loading"] .dot { background: var(--damage); animation: pulse 1.1s ease-in-out infinite; }
+  .status[data-state="ready"]   .dot { background: var(--healthy); }
+  .status[data-state="error"]   .dot { background: var(--spoiled); }
+  @keyframes pulse { 50% { opacity: .25; } }
+
+  h2 {
+    margin: 0 0 4px;
+    font-size: 13px; font-weight: 650; letter-spacing: .09em; text-transform: uppercase;
+    color: var(--ink-2);
+  }
+  section { margin-top: 34px; }
+  .sub { margin: 0 0 16px; color: var(--ink-2); font-size: 14.5px; max-width: 64ch; }
+
+  /* ---------------------------------------------------------- cards */
+  .grid { display: grid; gap: 16px; grid-template-columns: 1fr 1fr; }
+  @media (max-width: 760px) { .grid { grid-template-columns: 1fr; } }
+  .card {
+    background: var(--panel); border: 1px solid var(--line);
+    border-radius: var(--r); box-shadow: var(--shadow); overflow: hidden;
+  }
+  .card-body { padding: 14px 16px 16px; }
+  .card-note { margin: 10px 0 0; font-size: 14px; color: var(--ink-2); }
+
+  .verdict {
+    display: inline-flex; align-items: center; gap: 7px;
+    padding: 4px 11px; border-radius: 999px;
+    font-size: 13px; font-weight: 650; letter-spacing: .02em;
+  }
+  .verdict::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
+  .v-healthy { color: var(--healthy); background: var(--healthy-soft); }
+  .v-spoiled { color: var(--spoiled); background: var(--spoiled-soft); }
+
+  /* ------------------------------------------- before / after slider */
+  .cmp { position: relative; background: var(--panel-2); line-height: 0; isolation: isolate; }
+  .cmp > img.base { display: block; width: 100%; height: auto; }
+  .cmp .top { position: absolute; inset: 0; clip-path: inset(0 0 0 var(--pos, 50%)); }
+  .cmp .top img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: fill; }
+  /* The two showcase photos sit side by side, so they go in a fixed box and are
+     letterboxed: the cards stay level whatever shape the photos are. */
+  .cmp.level { aspect-ratio: 4 / 5; }
+  .cmp.level > img.base, .cmp.level .top img { height: 100%; object-fit: contain; }
+  .cmp .bar {
+    position: absolute; top: 0; bottom: 0; left: var(--pos, 50%);
+    width: 2px; margin-left: -1px; background: #fff;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .28); pointer-events: none; z-index: 2;
+  }
+  .cmp .bar::after {
+    content: "⇆"; position: absolute; top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 32px; height: 32px; border-radius: 50%;
+    background: #fff; color: #222; font-size: 15px; line-height: 32px; text-align: center;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .35);
+  }
+  .cmp .tag {
+    position: absolute; bottom: 8px; z-index: 2;
+    padding: 3px 8px; border-radius: 6px;
+    background: rgba(12, 16, 10, .62); color: #fff;
+    font-size: 11.5px; font-weight: 600; letter-spacing: .04em; line-height: 1.5;
+    text-transform: uppercase; backdrop-filter: blur(3px);
+  }
+  .cmp .tag.l { left: 8px; }
+  .cmp .tag.r { right: 8px; }
+  .cmp input[type="range"] {
+    position: absolute; inset: 0; z-index: 3;
+    width: 100%; height: 100%; margin: 0;
+    -webkit-appearance: none; appearance: none;
+    background: transparent; opacity: 0; cursor: ew-resize;
+  }
+  .cmp input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none; width: 34px; height: 400px;
+  }
+  .cmp input[type="range"]::-moz-range-thumb { width: 34px; height: 400px; border: 0; }
+  .cmp input[type="range"]:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; opacity: 1; }
+
+  /* ---------------------------------------------------------- legend */
+  .legend {
+    display: flex; flex-wrap: wrap; gap: 8px 20px;
+    margin-top: 16px; padding: 13px 16px;
+    background: var(--panel); border: 1px solid var(--line); border-radius: var(--r);
+    font-size: 13.5px; color: var(--ink-2);
+  }
+  .legend span { display: inline-flex; align-items: center; gap: 8px; }
+  .swatch { width: 13px; height: 13px; border-radius: 3px; border: 2.5px solid; flex: none; }
+
+  /* ---------------------------------------------------------- upload */
+  .drop {
+    display: block; width: 100%; padding: 34px 20px;
+    background: var(--panel);
+    border: 1.5px dashed var(--line); border-radius: var(--r);
+    color: var(--ink); text-align: center; cursor: pointer;
+    font: inherit; transition: border-color .15s, background .15s, transform .15s;
+  }
+  .drop:hover, .drop:focus-visible { border-color: var(--accent); background: var(--panel-2); }
+  .drop.over { border-color: var(--accent); background: var(--panel-2); transform: scale(1.006); }
+  .drop .big { display: block; font-size: 17px; font-weight: 600; margin-bottom: 4px; }
+  .drop .small { color: var(--ink-2); font-size: 14px; }
+  .drop .leaf { font-size: 30px; line-height: 1; display: block; margin-bottom: 10px; }
+  .examples { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 14px; font-size: 14px; color: var(--ink-2); }
+  button.ex {
+    padding: 6px 13px; border: 1px solid var(--line); border-radius: 999px;
+    background: var(--panel); color: var(--ink); font: inherit; font-size: 13.5px; cursor: pointer;
+  }
+  button.ex:hover:not(:disabled) { border-color: var(--accent); color: var(--accent); }
+  button.ex:disabled { opacity: .5; cursor: not-allowed; }
+
+  /* --------------------------------------------------------- results */
+  #results { display: grid; gap: 16px; margin-top: 16px; }
+  .result { display: grid; grid-template-columns: 1.15fr 1fr; }
+  @media (max-width: 760px) { .result { grid-template-columns: 1fr; } }
+  .result .pane { padding: 16px; display: flex; flex-direction: column; gap: 14px; min-width: 0; }
+  .fname {
+    font-size: 13px; color: var(--ink-2); word-break: break-all;
+    font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+  }
+  .head { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+  .headline { font-size: 19px; font-weight: 650; letter-spacing: -.01em; }
+  .meter { display: grid; gap: 7px; }
+  .meter .row { display: flex; justify-content: space-between; font-size: 13.5px; color: var(--ink-2); }
+  .meter .row b { color: var(--ink); font-variant-numeric: tabular-nums; }
+  .track { height: 7px; border-radius: 99px; background: var(--panel-2); overflow: hidden; }
+  /* The width is set inline; the animation only grows it in from zero, so the
+     bar is never left empty if the animation is skipped. */
+  .fill { height: 100%; border-radius: 99px; animation: grow .55s cubic-bezier(.3, 1, .4, 1); }
+  @keyframes grow { from { width: 0; } }
+  .fill.healthy { background: var(--healthy); }
+  .fill.spoiled { background: var(--spoiled); }
+  .fill.damage { background: var(--damage); }
+  .verdict-line { margin: 0; font-size: 14.5px; color: var(--ink-2); }
+  .spinner {
+    width: 17px; height: 17px; flex: none; border-radius: 50%;
+    border: 2.5px solid var(--line); border-top-color: var(--accent);
+    animation: spin .7s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .pending { display: flex; align-items: center; gap: 11px; padding: 18px; color: var(--ink-2); font-size: 14.5px; }
+  .err { color: var(--spoiled); }
+  footer { margin-top: 38px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--ink-2); font-size: 13.5px; }
+  code { background: var(--panel-2); padding: 1px 5px; border-radius: 5px; font-size: .9em; }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>Tea Leaf Check</h1>
+    <p class="lede">Upload a photo of a tea leaf. The model says whether it is
+      <strong>healthy</strong> or <strong>affected</strong>, and marks the damaged tissue
+      it found on the leaf.</p>
+    <div class="status" id="status" data-state="loading">
+      <span class="dot"></span><span id="status-text">Starting the model…</span>
+    </div>
+  </header>
+
+  <section id="showcase-section" hidden>
+    <h2>The difference</h2>
+    <p class="sub">Two photos from the dataset. Drag the handle across an image to compare the
+      original photo with what the model marked on it.</p>
+    <div class="grid" id="showcase"></div>
+    <div class="legend">
+      <span><i class="swatch" style="border-color: var(--healthy)"></i> Green box — leaf judged healthy</span>
+      <span><i class="swatch" style="border-color: var(--spoiled)"></i> Red box — leaf judged affected</span>
+      <span><i class="swatch" style="border-color: var(--damage)"></i> Orange box — discoloured, damaged tissue</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Your photo</h2>
+    <p class="sub">Works best with one leaf per photo on a plain background, the way the
+      training photos were taken.</p>
+    <button class="drop" id="drop" type="button">
+      <span class="leaf">🍃</span>
+      <span class="big">Drop a leaf photo here, or click to choose</span>
+      <span class="small">You can also paste an image with Ctrl+V · JPG, PNG, WebP · several at once</span>
+    </button>
+    <input type="file" id="file" accept="image/*" multiple hidden>
+    <div class="examples">
+      <span>No photo handy?</span>
+      <button class="ex" type="button" data-ex="healthy" disabled>Try a healthy leaf</button>
+      <button class="ex" type="button" data-ex="spoiled" disabled>Try an affected leaf</button>
+    </div>
+  </section>
+
+  <section id="results-section" hidden>
+    <h2>Results</h2>
+    <div id="results"></div>
+  </section>
+
+  <footer>
+    Verdict from <code>models/tea_leaf_classifier.pt</code> (ConvNeXt-Tiny, 384&nbsp;px, averaged
+    over four flips). Orange boxes come from colour analysis inside the leaf and show where the
+    damage is — they are not a second opinion on the verdict. Same output as
+    <code>detect.py</code>.
+  </footer>
+
+</div>
+
+<script>
+(() => {
+  "use strict";
+  const $ = (s) => document.querySelector(s);
+  const pct = (x) => (x * 100).toFixed(1) + "%";
+  const el = (tag, cls, text) => {
+    const n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text != null) n.textContent = text;
+    return n;
+  };
+  const LABEL = { healthy: "Healthy", spoiled: "Affected" };
+
+  /* ----------------------------------------- before / after component */
+  function comparison(originalSrc, annotatedSrc, level) {
+    const box = el("div", "cmp" + (level ? " level" : ""));
+    box.style.setProperty("--pos", "50%");
+    const base = el("img", "base");
+    base.src = originalSrc;
+    base.alt = "The photo as uploaded";
+    const top = el("div", "top");
+    const over = el("img");
+    over.src = annotatedSrc;
+    over.alt = "The same photo with the model's marks drawn on it";
+    top.append(over);
+    const range = el("input");
+    range.type = "range";
+    range.min = 0; range.max = 100; range.value = 50; range.step = "any";
+    range.setAttribute("aria-label", "Reveal the analysed image");
+    range.addEventListener("input", () => box.style.setProperty("--pos", range.value + "%"));
+    box.append(base, top, el("div", "bar"), range,
+               Object.assign(el("span", "tag l", "Photo"), {}),
+               Object.assign(el("span", "tag r", "Analysed"), {}));
+    return box;
+  }
+
+  /* ------------------------------------------------------- the model */
+  const statusEl = $("#status"), statusText = $("#status-text");
+  let ready = false;
+
+  function setStatus(state, text) {
+    statusEl.dataset.state = state;
+    statusText.textContent = text;
+  }
+
+  async function pollStatus() {
+    try {
+      const s = await (await fetch("/api/status")).json();
+      if (s.state === "ready") {
+        ready = true;
+        setStatus("ready", `Model ready — running on ${s.device.toUpperCase()}`);
+        document.querySelectorAll("button.ex").forEach((b) => (b.disabled = false));
+        return;
+      }
+      if (s.state === "error") return setStatus("error", "Model failed to load: " + s.error);
+    } catch {
+      return setStatus("error", "Lost the connection to the server. Is app.py still running?");
+    }
+    setTimeout(pollStatus, 700);
+  }
+
+  /* -------------------------------------------------------- showcase */
+  (async () => {
+    let items = [];
+    try { items = (await (await fetch("/api/showcase")).json()).items || []; } catch {}
+    if (!items.length) return;
+    const host = $("#showcase");
+    for (const it of items) {
+      const card = el("div", "card");
+      const body = el("div", "card-body");
+      const head = el("div", "head");
+      head.append(el("span", "headline", it.name),
+                  el("span", "verdict v-" + it.verdict, LABEL[it.verdict]));
+      body.append(head, el("p", "card-note", it.note));
+      card.append(comparison(it.original, it.annotated, true), body);
+      host.append(card);
+    }
+    $("#showcase-section").hidden = false;
+  })();
+
+  /* --------------------------------------------------------- results */
+  const results = $("#results");
+
+  function addCard(file) {
+    const card = el("div", "card");
+    const pending = el("div", "pending");
+    pending.append(el("div", "spinner"),
+                   el("span", null, ready ? `Analysing ${file.name}…`
+                                          : `Waiting for the model, then analysing ${file.name}…`));
+    card.append(pending);
+    results.prepend(card);
+    $("#results-section").hidden = false;
+    card.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    return { card, pending };
+  }
+
+  function fillCard(card, file, url, r) {
+    const spoiled = r.verdict === "spoiled";
+    const wrap = el("div", "result");
+    const pane = el("div", "pane");
+
+    const head = el("div", "head");
+    head.append(el("span", "headline", LABEL[r.verdict] + " leaf"),
+                el("span", "verdict v-" + r.verdict, pct(r.confidence) + " confident"));
+    pane.append(head);
+
+    pane.append(el("p", "verdict-line", spoiled
+      ? "The model found disease on this leaf. The orange boxes mark the discoloured tissue."
+      : "No disease found. The leaf tissue is evenly coloured."));
+
+    const meter = el("div", "meter");
+    const bar = (name, value, cls) => {
+      const row = el("div", "row");
+      row.append(el("span", null, name), Object.assign(el("b"), { textContent: pct(value) }));
+      const track = el("div", "track"), fill = el("div", "fill " + cls);
+      fill.style.width = Math.max(value * 100, 1.2) + "%";  // a hair wide so 0% still shows
+      track.append(fill);
+      meter.append(row, track);
+    };
+    bar("Healthy", r.p_healthy, "healthy");
+    bar("Affected", r.p_spoiled, "spoiled");
+    if (r.damaged_fraction != null) bar("Damaged area of the leaf", r.damaged_fraction, "damage");
+    pane.append(meter);
+
+    pane.append(Object.assign(el("div", "fname", file.name), {}));
+    wrap.append(comparison(url, r.annotated), pane);
+    card.replaceChildren(wrap);
+  }
+
+  /* ---------------------------------------------------------- upload */
+  let queue = Promise.resolve();  // the server holds one model, so send one at a time
+
+  function predict(file) {
+    if (!file.type.startsWith("image/")) return;
+    const url = URL.createObjectURL(file);
+    const { card, pending } = addCard(file);
+    queue = queue.then(async () => {
+      try {
+        const res = await fetch("/api/predict", {
+          method: "POST",
+          headers: { "Content-Type": file.type || "application/octet-stream" },
+          body: file,
+        });
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.error || res.statusText);
+        fillCard(card, file, url, data);
+      } catch (e) {
+        pending.replaceChildren(el("span", "err", "Could not analyse " + file.name + ": " + e.message));
+      }
+    });
+  }
+
+  const take = (files) => [...files].forEach(predict);
+
+  const drop = $("#drop"), input = $("#file");
+  drop.addEventListener("click", () => input.click());
+  input.addEventListener("change", () => { take(input.files); input.value = ""; });
+
+  let depth = 0;
+  const over = (on) => drop.classList.toggle("over", on);
+  addEventListener("dragenter", (e) => { e.preventDefault(); if (++depth) over(true); });
+  addEventListener("dragover", (e) => e.preventDefault());
+  addEventListener("dragleave", () => { if (--depth <= 0) { depth = 0; over(false); } });
+  addEventListener("drop", (e) => {
+    e.preventDefault(); depth = 0; over(false);
+    if (e.dataTransfer?.files?.length) take(e.dataTransfer.files);
+  });
+  addEventListener("paste", (e) => {
+    const files = [...(e.clipboardData?.files || [])];
+    if (files.length) { e.preventDefault(); take(files); }
+  });
+
+  document.querySelectorAll("button.ex").forEach((btn) => {
+    btn.addEventListener("click", async () => {
+      btn.disabled = true;
+      try {
+        const items = (await (await fetch("/api/showcase")).json()).items || [];
+        const pick = items.find((i) => i.verdict === btn.dataset.ex);
+        if (!pick) throw new Error("no example available");
+        const blob = await (await fetch(pick.original)).blob();
+        predict(new File([blob], `example-${btn.dataset.ex}.jpg`, { type: blob.type || "image/jpeg" }));
+      } catch (e) {
+        alert("Could not load the example: " + e.message);
+      } finally {
+        btn.disabled = !ready;
+      }
+    });
+  });
+
+  pollStatus();
+})();
+</script>
+</body>
+</html>

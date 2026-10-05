@@ -1,0 +1,58 @@
+
+=== fold 1/5: train 234 (healthy 52), val 65 (healthy 21) ===
+[f1] epoch   1/30  loss 3.6463  train-acc 0.571  24.8s
+[f1] epoch   5/30  loss 1.1077  train-acc 0.844  5.2s
+[f1] epoch  10/30  loss 0.5090  train-acc 0.897  5.3s
+[f1] epoch  15/30  loss 0.3190  train-acc 0.969  5.3s
+[f1] epoch  20/30  loss 0.2755  train-acc 0.978  5.3s
+[f1] epoch  25/30  loss 0.2574  train-acc 0.987  5.2s
+[f1] epoch  30/30  loss 0.2807  train-acc 0.969  5.3s
+   raw: acc 0.985 bal 0.989  |  swapped: acc 0.846 bal 0.886  |  neutral: acc 0.954 bal 0.966
+
+=== fold 2/5: train 236 (healthy 54), val 63 (healthy 19) ===
+[f2] epoch   1/30  loss 4.2295  train-acc 0.612  22.8s
+[f2] epoch   5/30  loss 1.1840  train-acc 0.844  5.3s
+[f2] epoch  10/30  loss 0.6211  train-acc 0.893  5.3s
+[f2] epoch  15/30  loss 0.3696  train-acc 0.920  5.2s
+[f2] epoch  20/30  loss 0.2963  train-acc 0.973  5.3s
+[f2] epoch  25/30  loss 0.2849  train-acc 0.973  5.3s
+[f2] epoch  30/30  loss 0.2719  train-acc 0.978  5.4s
+   raw: acc 0.984 bal 0.974  |  swapped: acc 0.984 bal 0.974  |  neutral: acc 0.984 bal 0.974
+
+=== fold 3/5: train 243 (healthy 65), val 56 (healthy 8) ===
+[f3] epoch   1/30  loss 3.3440  train-acc 0.604  22.8s
+[f3] epoch   5/30  loss 0.9530  train-acc 0.867  5.6s
+[f3] epoch  10/30  loss 0.4359  train-acc 0.933  5.7s
+[f3] epoch  15/30  loss 0.2783  train-acc 0.971  5.6s
+[f3] epoch  20/30  loss 0.2654  train-acc 0.975  5.7s
+[f3] epoch  25/30  loss 0.2462  train-acc 0.992  5.6s
+[f3] epoch  30/30  loss 0.2312  train-acc 0.996  5.6s
+   raw: acc 0.982 bal 0.990  |  swapped: acc 0.982 bal 0.990  |  neutral: acc 1.000 bal 1.000
+
+=== fold 4/5: train 236 (healthy 60), val 63 (healthy 13) ===
+[f4] epoch   1/30  loss 4.5404  train-acc 0.589  22.7s
+[f4] epoch   5/30  loss 1.0000  train-acc 0.835  5.2s
+[f4] epoch  10/30  loss 0.5551  train-acc 0.844  5.2s
+[f4] epoch  15/30  loss 0.3411  train-acc 0.929  5.4s
+[f4] epoch  20/30  loss 0.2696  train-acc 0.969  5.3s
+[f4] epoch  25/30  loss 0.2599  train-acc 0.978  5.3s
+[f4] epoch  30/30  loss 0.2801  train-acc 0.978  5.4s
+   raw: acc 0.968 bal 0.980  |  swapped: acc 0.984 bal 0.990  |  neutral: acc 0.921 bal 0.950
+
+=== fold 5/5: train 247 (healthy 61), val 52 (healthy 12) ===
+[f5] epoch   1/30  loss 4.9942  train-acc 0.537  23.1s
+[f5] epoch   5/30  loss 0.8853  train-acc 0.887  5.6s
+[f5] epoch  10/30  loss 0.4814  train-acc 0.921  5.7s
+[f5] epoch  15/30  loss 0.3098  train-acc 0.950  5.6s
+[f5] epoch  20/30  loss 0.2701  train-acc 0.967  5.8s
+[f5] epoch  25/30  loss 0.2559  train-acc 0.992  5.7s
+[f5] epoch  30/30  loss 0.2879  train-acc 0.954  5.7s
+   raw: acc 1.000 bal 1.000  |  swapped: acc 1.000 bal 1.000  |  neutral: acc 1.000 bal 1.000
+
+=== out-of-fold results (299 images, 210 distinct leaves) ===
+raw      acc 0.9833  bal-acc 0.9843  auc 0.9991  logloss 0.1181  healthy-recall 0.986  spoiled-recall 0.982  cm [[72, 1], [4, 222]]
+swapped  acc 0.9565  bal-acc 0.9666  auc 0.9976  logloss 0.1304  healthy-recall 0.986  spoiled-recall 0.947  cm [[72, 1], [12, 214]]
+neutral  acc 0.9699  bal-acc 0.9755  auc 0.9965  logloss 0.1650  healthy-recall 0.986  spoiled-recall 0.965  cm [[72, 1], [8, 218]]
+baseline 'blue border = healthy' on raw     : acc 1.0000  bal-acc 1.0000
+baseline 'blue border = healthy' on swapped : acc 0.0000  bal-acc 0.0000
+saved D:\PROJECT\tea sickness dataset\runs\tf_efficientnetv2_s.in21k_ft_in1k\cv_metrics.json  (16.7 min)

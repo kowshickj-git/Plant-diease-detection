@@ -1,0 +1,301 @@
+image,prediction,confidence,p_healthy,p_spoiled,damaged_fraction,annotated
+healthy/UNADJUSTEDNONRAW_thumb_206.jpg,healthy,0.9528,0.9528,0.0472,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_206.jpg
+healthy/UNADJUSTEDNONRAW_thumb_207.jpg,healthy,0.9527,0.9527,0.0473,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_207.jpg
+healthy/UNADJUSTEDNONRAW_thumb_208.jpg,healthy,0.9521,0.9521,0.0479,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_208.jpg
+healthy/UNADJUSTEDNONRAW_thumb_209.jpg,healthy,0.9526,0.9526,0.0474,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_209.jpg
+healthy/UNADJUSTEDNONRAW_thumb_20a.jpg,healthy,0.9520,0.9520,0.0480,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_20a.jpg
+healthy/UNADJUSTEDNONRAW_thumb_20b.jpg,healthy,0.9525,0.9525,0.0475,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_20b.jpg
+healthy/UNADJUSTEDNONRAW_thumb_20c.jpg,healthy,0.9536,0.9536,0.0464,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_20c.jpg
+healthy/UNADJUSTEDNONRAW_thumb_20d.jpg,healthy,0.9520,0.9520,0.0480,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_20d.jpg
+healthy/UNADJUSTEDNONRAW_thumb_20e.jpg,healthy,0.9528,0.9528,0.0472,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_20e.jpg
+healthy/UNADJUSTEDNONRAW_thumb_20f.jpg,healthy,0.9529,0.9529,0.0471,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_20f.jpg
+healthy/UNADJUSTEDNONRAW_thumb_210.jpg,healthy,0.9527,0.9527,0.0473,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_210.jpg
+healthy/UNADJUSTEDNONRAW_thumb_211.jpg,healthy,0.9525,0.9525,0.0475,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_211.jpg
+healthy/UNADJUSTEDNONRAW_thumb_212.jpg,healthy,0.9526,0.9526,0.0474,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_212.jpg
+healthy/UNADJUSTEDNONRAW_thumb_213.jpg,healthy,0.9527,0.9527,0.0473,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_213.jpg
+healthy/UNADJUSTEDNONRAW_thumb_214.jpg,healthy,0.9531,0.9531,0.0469,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_214.jpg
+healthy/UNADJUSTEDNONRAW_thumb_215.jpg,healthy,0.9526,0.9526,0.0474,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_215.jpg
+healthy/UNADJUSTEDNONRAW_thumb_216.jpg,healthy,0.9534,0.9534,0.0466,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_216.jpg
+healthy/UNADJUSTEDNONRAW_thumb_217.jpg,healthy,0.9540,0.9540,0.0460,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_217.jpg
+healthy/UNADJUSTEDNONRAW_thumb_218.jpg,healthy,0.9534,0.9534,0.0466,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_218.jpg
+healthy/UNADJUSTEDNONRAW_thumb_219.jpg,healthy,0.9528,0.9528,0.0472,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_219.jpg
+healthy/UNADJUSTEDNONRAW_thumb_21a.jpg,healthy,0.9530,0.9530,0.0470,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_21a.jpg
+healthy/UNADJUSTEDNONRAW_thumb_21b.jpg,healthy,0.9532,0.9532,0.0468,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_21b.jpg
+healthy/UNADJUSTEDNONRAW_thumb_21c.jpg,healthy,0.9528,0.9528,0.0472,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_21c.jpg
+healthy/UNADJUSTEDNONRAW_thumb_21d.jpg,healthy,0.9532,0.9532,0.0468,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_21d.jpg
+healthy/UNADJUSTEDNONRAW_thumb_21e.jpg,healthy,0.9521,0.9521,0.0479,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_21e.jpg
+healthy/UNADJUSTEDNONRAW_thumb_21f.jpg,healthy,0.9534,0.9534,0.0466,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_21f.jpg
+healthy/UNADJUSTEDNONRAW_thumb_220.jpg,healthy,0.9541,0.9541,0.0459,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_220.jpg
+healthy/UNADJUSTEDNONRAW_thumb_221.jpg,healthy,0.9534,0.9534,0.0466,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_221.jpg
+healthy/UNADJUSTEDNONRAW_thumb_222.jpg,healthy,0.9531,0.9531,0.0469,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_222.jpg
+healthy/UNADJUSTEDNONRAW_thumb_223.jpg,healthy,0.9535,0.9535,0.0465,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_223.jpg
+healthy/UNADJUSTEDNONRAW_thumb_224.jpg,healthy,0.9532,0.9532,0.0468,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_224.jpg
+healthy/UNADJUSTEDNONRAW_thumb_225.jpg,healthy,0.9538,0.9538,0.0462,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_225.jpg
+healthy/UNADJUSTEDNONRAW_thumb_226.jpg,healthy,0.9526,0.9526,0.0474,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_226.jpg
+healthy/UNADJUSTEDNONRAW_thumb_227.jpg,healthy,0.9543,0.9543,0.0457,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_227.jpg
+healthy/UNADJUSTEDNONRAW_thumb_228.jpg,healthy,0.9529,0.9529,0.0471,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_228.jpg
+healthy/UNADJUSTEDNONRAW_thumb_229.jpg,healthy,0.9527,0.9527,0.0473,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_229.jpg
+healthy/UNADJUSTEDNONRAW_thumb_22a.jpg,healthy,0.9529,0.9529,0.0471,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_22a.jpg
+healthy/UNADJUSTEDNONRAW_thumb_22b.jpg,healthy,0.9532,0.9532,0.0468,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_22b.jpg
+healthy/UNADJUSTEDNONRAW_thumb_22c.jpg,healthy,0.9523,0.9523,0.0477,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_22c.jpg
+healthy/UNADJUSTEDNONRAW_thumb_22d.jpg,healthy,0.9529,0.9529,0.0471,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_22d.jpg
+healthy/UNADJUSTEDNONRAW_thumb_22e.jpg,healthy,0.9533,0.9533,0.0467,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_22e.jpg
+healthy/UNADJUSTEDNONRAW_thumb_22f.jpg,healthy,0.9533,0.9533,0.0467,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_22f.jpg
+healthy/UNADJUSTEDNONRAW_thumb_230.jpg,healthy,0.9515,0.9515,0.0485,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_230.jpg
+healthy/UNADJUSTEDNONRAW_thumb_231.jpg,healthy,0.9538,0.9538,0.0462,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_231.jpg
+healthy/UNADJUSTEDNONRAW_thumb_232.jpg,healthy,0.9541,0.9541,0.0459,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_232.jpg
+healthy/UNADJUSTEDNONRAW_thumb_233.jpg,healthy,0.9541,0.9541,0.0459,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_233.jpg
+healthy/UNADJUSTEDNONRAW_thumb_234.jpg,healthy,0.9540,0.9540,0.0460,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_234.jpg
+healthy/UNADJUSTEDNONRAW_thumb_235.jpg,healthy,0.9542,0.9542,0.0458,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_235.jpg
+healthy/UNADJUSTEDNONRAW_thumb_236.jpg,healthy,0.9542,0.9542,0.0458,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_236.jpg
+healthy/UNADJUSTEDNONRAW_thumb_237.jpg,healthy,0.9542,0.9542,0.0458,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_237.jpg
+healthy/UNADJUSTEDNONRAW_thumb_238.jpg,healthy,0.9540,0.9540,0.0460,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_238.jpg
+healthy/UNADJUSTEDNONRAW_thumb_239.jpg,healthy,0.9541,0.9541,0.0459,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_239.jpg
+healthy/UNADJUSTEDNONRAW_thumb_23a.jpg,healthy,0.9540,0.9540,0.0460,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_23a.jpg
+healthy/UNADJUSTEDNONRAW_thumb_23b.jpg,healthy,0.9541,0.9541,0.0459,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_23b.jpg
+healthy/UNADJUSTEDNONRAW_thumb_23c.jpg,spoiled,0.9542,0.0458,0.9542,0.307,test/spoiled/healthy__UNADJUSTEDNONRAW_thumb_23c.jpg
+healthy/UNADJUSTEDNONRAW_thumb_23d.jpg,healthy,0.9538,0.9538,0.0462,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_23d.jpg
+healthy/UNADJUSTEDNONRAW_thumb_23e.jpg,healthy,0.9532,0.9532,0.0468,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_23e.jpg
+healthy/UNADJUSTEDNONRAW_thumb_23f.jpg,healthy,0.9531,0.9531,0.0469,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_23f.jpg
+healthy/UNADJUSTEDNONRAW_thumb_240.jpg,healthy,0.9526,0.9526,0.0474,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_240.jpg
+healthy/UNADJUSTEDNONRAW_thumb_241.jpg,healthy,0.9525,0.9525,0.0475,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_241.jpg
+healthy/UNADJUSTEDNONRAW_thumb_242.jpg,healthy,0.9529,0.9529,0.0471,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_242.jpg
+healthy/UNADJUSTEDNONRAW_thumb_243.jpg,healthy,0.9536,0.9536,0.0464,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_243.jpg
+healthy/UNADJUSTEDNONRAW_thumb_244.jpg,healthy,0.9526,0.9526,0.0474,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_244.jpg
+healthy/UNADJUSTEDNONRAW_thumb_245.jpg,healthy,0.9533,0.9533,0.0467,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_245.jpg
+healthy/UNADJUSTEDNONRAW_thumb_246.jpg,healthy,0.9542,0.9542,0.0458,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_246.jpg
+healthy/UNADJUSTEDNONRAW_thumb_247.jpg,healthy,0.9543,0.9543,0.0457,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_247.jpg
+healthy/UNADJUSTEDNONRAW_thumb_248.jpg,healthy,0.9526,0.9526,0.0474,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_248.jpg
+healthy/UNADJUSTEDNONRAW_thumb_249.jpg,healthy,0.9533,0.9533,0.0467,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_249.jpg
+healthy/UNADJUSTEDNONRAW_thumb_24a.jpg,healthy,0.9533,0.9533,0.0467,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_24a.jpg
+healthy/UNADJUSTEDNONRAW_thumb_24b.jpg,healthy,0.9532,0.9532,0.0468,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_24b.jpg
+healthy/UNADJUSTEDNONRAW_thumb_24c.jpg,healthy,0.9522,0.9522,0.0478,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_24c.jpg
+healthy/UNADJUSTEDNONRAW_thumb_24d.jpg,healthy,0.9522,0.9522,0.0478,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_24d.jpg
+healthy/UNADJUSTEDNONRAW_thumb_24e.jpg,healthy,0.9521,0.9521,0.0479,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_24e.jpg
+healthy/UNADJUSTEDNONRAW_thumb_24f.jpg,healthy,0.9539,0.9539,0.0461,,test/healthy/healthy__UNADJUSTEDNONRAW_thumb_24f.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_1.jpg,spoiled,0.9532,0.0468,0.9532,0.633,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_1.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_10.jpg,spoiled,0.9522,0.0478,0.9522,0.044,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_10.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_11.jpg,spoiled,0.9501,0.0499,0.9501,0.102,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_11.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_12.jpg,spoiled,0.9532,0.0468,0.9532,0.304,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_12.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_13.jpg,spoiled,0.9516,0.0484,0.9516,0.322,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_13.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_14.jpg,spoiled,0.9530,0.0470,0.9530,0.793,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_14.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_15.jpg,spoiled,0.9530,0.0470,0.9530,0.938,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_15.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_16.jpg,spoiled,0.9524,0.0476,0.9524,0.301,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_16.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_17.jpg,spoiled,0.9511,0.0489,0.9511,0.943,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_17.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_18.jpg,spoiled,0.9506,0.0494,0.9506,0.033,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_18.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_19.jpg,spoiled,0.9507,0.0493,0.9507,0.305,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_19.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_1a.jpg,spoiled,0.9518,0.0482,0.9518,0.245,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_1a.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_1b.jpg,spoiled,0.9517,0.0483,0.9517,0.204,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_1b.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_1c.jpg,spoiled,0.9538,0.0462,0.9538,0.206,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_1c.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_1d.jpg,spoiled,0.9517,0.0483,0.9517,0.126,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_1d.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_1e.jpg,spoiled,0.9533,0.0467,0.9533,0.137,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_1e.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_1f.jpg,spoiled,0.9529,0.0471,0.9529,0.077,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_1f.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_2.jpg,spoiled,0.9521,0.0479,0.9521,0.495,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_2.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_20.jpg,spoiled,0.9524,0.0476,0.9524,0.166,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_20.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_21.jpg,spoiled,0.9519,0.0481,0.9519,0.052,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_21.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_22.jpg,spoiled,0.9504,0.0496,0.9504,0.156,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_22.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_23.jpg,spoiled,0.9533,0.0467,0.9533,0.260,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_23.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_24.jpg,spoiled,0.9513,0.0487,0.9513,0.437,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_24.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_25.jpg,spoiled,0.9535,0.0465,0.9535,0.313,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_25.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_26.jpg,spoiled,0.9517,0.0483,0.9517,0.142,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_26.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_27.jpg,spoiled,0.9501,0.0499,0.9501,0.934,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_27.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_28.jpg,spoiled,0.9508,0.0492,0.9508,0.903,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_28.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_29.jpg,spoiled,0.9513,0.0487,0.9513,0.310,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_29.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_2a.jpg,spoiled,0.9518,0.0482,0.9518,0.344,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_2a.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_2b.jpg,spoiled,0.9503,0.0497,0.9503,0.088,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_2b.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_2c.jpg,spoiled,0.9521,0.0479,0.9521,0.029,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_2c.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_2d.jpg,spoiled,0.9531,0.0469,0.9531,0.057,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_2d.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_2e.jpg,spoiled,0.9505,0.0495,0.9505,0.476,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_2e.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_2f.jpg,spoiled,0.9518,0.0482,0.9518,0.905,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_2f.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_3.jpg,spoiled,0.9519,0.0481,0.9519,0.007,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_3.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_30.jpg,spoiled,0.9505,0.0495,0.9505,0.167,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_30.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_31.jpg,spoiled,0.9518,0.0482,0.9518,0.527,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_31.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_32.jpg,spoiled,0.9507,0.0493,0.9507,0.591,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_32.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_33.jpg,spoiled,0.9529,0.0471,0.9529,0.035,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_33.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_34.jpg,spoiled,0.9511,0.0489,0.9511,0.879,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_34.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_35.jpg,spoiled,0.9518,0.0482,0.9518,0.163,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_35.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_36.jpg,spoiled,0.9516,0.0484,0.9516,0.263,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_36.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_37.jpg,spoiled,0.9526,0.0474,0.9526,0.255,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_37.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_38.jpg,spoiled,0.9499,0.0501,0.9499,0.366,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_38.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_39.jpg,spoiled,0.9521,0.0479,0.9521,0.726,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_39.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_3a.jpg,spoiled,0.9507,0.0493,0.9507,0.179,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_3a.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_3b.jpg,spoiled,0.9520,0.0480,0.9520,0.673,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_3b.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_3c.jpg,spoiled,0.9517,0.0483,0.9517,0.119,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_3c.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_3d.jpg,spoiled,0.9518,0.0482,0.9518,0.344,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_3d.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_3e.jpg,spoiled,0.9511,0.0489,0.9511,0.581,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_3e.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_3f.jpg,spoiled,0.9521,0.0479,0.9521,0.716,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_3f.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_4.jpg,spoiled,0.9522,0.0478,0.9522,0.227,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_4.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_40.jpg,spoiled,0.9539,0.0461,0.9539,0.705,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_40.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_41.jpg,spoiled,0.9526,0.0474,0.9526,0.073,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_41.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_42.jpg,spoiled,0.9511,0.0489,0.9511,0.247,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_42.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_43.jpg,spoiled,0.9518,0.0482,0.9518,0.274,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_43.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_44.jpg,spoiled,0.9526,0.0474,0.9526,0.225,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_44.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_45.jpg,spoiled,0.9504,0.0496,0.9504,0.371,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_45.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_46.jpg,spoiled,0.9508,0.0492,0.9508,0.028,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_46.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_47.jpg,spoiled,0.9522,0.0478,0.9522,0.502,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_47.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_48.jpg,spoiled,0.9524,0.0476,0.9524,0.170,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_48.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_49.jpg,spoiled,0.9504,0.0496,0.9504,0.910,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_49.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_4a.jpg,spoiled,0.9519,0.0481,0.9519,0.903,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_4a.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_4b.jpg,spoiled,0.9537,0.0463,0.9537,0.605,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_4b.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_4c.jpg,spoiled,0.9516,0.0484,0.9516,0.077,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_4c.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_4d.jpg,spoiled,0.9513,0.0487,0.9513,0.601,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_4d.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_4e.jpg,spoiled,0.9546,0.0454,0.9546,0.233,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_4e.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_4f.jpg,spoiled,0.9517,0.0483,0.9517,0.391,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_4f.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_5.jpg,spoiled,0.9525,0.0475,0.9525,0.150,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_5.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_50.jpg,spoiled,0.9515,0.0485,0.9515,0.168,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_50.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_51.jpg,spoiled,0.9521,0.0479,0.9521,0.165,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_51.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_52.jpg,spoiled,0.9503,0.0497,0.9503,0.613,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_52.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_53.jpg,spoiled,0.9502,0.0498,0.9502,0.165,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_53.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_54.jpg,spoiled,0.9530,0.0470,0.9530,0.319,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_54.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_55.jpg,spoiled,0.9534,0.0466,0.9534,0.082,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_55.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_56.jpg,spoiled,0.9517,0.0483,0.9517,0.185,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_56.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_57.jpg,spoiled,0.9513,0.0487,0.9513,0.141,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_57.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_58.jpg,spoiled,0.9537,0.0463,0.9537,0.161,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_58.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_59.jpg,spoiled,0.9515,0.0485,0.9515,0.277,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_59.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_5a.jpg,spoiled,0.9518,0.0482,0.9518,0.296,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_5a.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_5b.jpg,spoiled,0.9507,0.0493,0.9507,0.589,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_5b.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_5c.jpg,spoiled,0.9498,0.0502,0.9498,0.348,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_5c.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_5d.jpg,spoiled,0.9532,0.0468,0.9532,0.080,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_5d.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_5e.jpg,spoiled,0.9521,0.0479,0.9521,0.361,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_5e.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_5f.jpg,spoiled,0.9519,0.0481,0.9519,0.619,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_5f.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_6.jpg,spoiled,0.9525,0.0475,0.9525,0.174,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_6.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_60.jpg,spoiled,0.9504,0.0496,0.9504,0.875,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_60.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_61.jpg,spoiled,0.9517,0.0483,0.9517,0.193,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_61.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_62.jpg,spoiled,0.9530,0.0470,0.9530,0.095,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_62.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_63.jpg,spoiled,0.9498,0.0502,0.9498,0.313,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_63.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_64.jpg,spoiled,0.9507,0.0493,0.9507,0.606,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_64.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_65.jpg,spoiled,0.9518,0.0482,0.9518,0.940,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_65.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_66.jpg,spoiled,0.9520,0.0480,0.9520,0.554,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_66.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_67.jpg,spoiled,0.9537,0.0463,0.9537,0.730,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_67.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_68.jpg,spoiled,0.9515,0.0485,0.9515,0.939,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_68.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_69.jpg,spoiled,0.9518,0.0482,0.9518,0.565,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_69.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_6a.jpg,spoiled,0.9512,0.0488,0.9512,0.894,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_6a.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_6b.jpg,spoiled,0.9503,0.0497,0.9503,0.933,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_6b.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_6c.jpg,spoiled,0.9514,0.0486,0.9514,0.431,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_6c.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_6d.jpg,spoiled,0.9547,0.0453,0.9547,0.477,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_6d.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_6e.jpg,spoiled,0.9511,0.0489,0.9511,0.591,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_6e.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_6f.jpg,spoiled,0.9521,0.0479,0.9521,0.557,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_6f.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_7.jpg,spoiled,0.9514,0.0486,0.9514,0.022,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_7.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_70.jpg,spoiled,0.9522,0.0478,0.9522,0.088,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_70.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_71.jpg,spoiled,0.9509,0.0491,0.9509,0.232,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_71.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_8.jpg,spoiled,0.9532,0.0468,0.9532,0.188,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_8.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_9.jpg,spoiled,0.9509,0.0491,0.9509,0.172,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_9.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_a.jpg,spoiled,0.9537,0.0463,0.9537,0.104,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_a.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_b.jpg,spoiled,0.9521,0.0479,0.9521,0.141,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_b.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_c.jpg,spoiled,0.9507,0.0493,0.9507,0.344,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_c.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_d.jpg,spoiled,0.9527,0.0473,0.9527,0.540,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_d.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_e.jpg,spoiled,0.9512,0.0488,0.9512,0.156,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_e.jpg
+algal leaf/UNADJUSTEDNONRAW_thumb_f.jpg,spoiled,0.9505,0.0495,0.9505,0.155,test/spoiled/algal_leaf__UNADJUSTEDNONRAW_thumb_f.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_102.jpg,spoiled,0.9521,0.0479,0.9521,0.174,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_102.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_103.jpg,spoiled,0.9517,0.0483,0.9517,0.166,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_103.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_104.jpg,spoiled,0.9517,0.0483,0.9517,0.141,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_104.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_105.jpg,spoiled,0.9522,0.0478,0.9522,0.199,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_105.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_106.jpg,spoiled,0.9523,0.0477,0.9523,0.253,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_106.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_107.jpg,spoiled,0.9518,0.0482,0.9518,0.042,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_107.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_108.jpg,spoiled,0.9519,0.0481,0.9519,0.367,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_108.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_109.jpg,spoiled,0.9525,0.0475,0.9525,0.214,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_109.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_10a.jpg,spoiled,0.9514,0.0486,0.9514,0.020,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_10a.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_10b.jpg,spoiled,0.9504,0.0496,0.9504,0.238,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_10b.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_10c.jpg,spoiled,0.9515,0.0485,0.9515,0.335,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_10c.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_10d.jpg,spoiled,0.9530,0.0470,0.9530,0.058,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_10d.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_10e.jpg,spoiled,0.9511,0.0489,0.9511,0.096,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_10e.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_10f.jpg,spoiled,0.9501,0.0499,0.9501,0.182,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_10f.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_110.jpg,spoiled,0.9544,0.0456,0.9544,0.408,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_110.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_111.jpg,spoiled,0.9516,0.0484,0.9516,0.353,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_111.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_112.jpg,spoiled,0.9504,0.0496,0.9504,0.127,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_112.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_113.jpg,spoiled,0.9529,0.0471,0.9529,0.147,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_113.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_114.jpg,spoiled,0.9497,0.0503,0.9497,0.488,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_114.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_115.jpg,spoiled,0.9519,0.0481,0.9519,0.146,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_115.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_116.jpg,spoiled,0.9522,0.0478,0.9522,0.777,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_116.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_117.jpg,spoiled,0.9519,0.0481,0.9519,0.312,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_117.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_118.jpg,spoiled,0.9518,0.0482,0.9518,0.173,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_118.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_119.jpg,spoiled,0.9513,0.0487,0.9513,0.411,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_119.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_11a.jpg,spoiled,0.9509,0.0491,0.9509,0.106,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_11a.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_11b.jpg,spoiled,0.9523,0.0477,0.9523,0.247,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_11b.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_11c.jpg,spoiled,0.9504,0.0496,0.9504,0.361,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_11c.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_11d.jpg,spoiled,0.9509,0.0491,0.9509,0.311,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_11d.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_11e.jpg,spoiled,0.9535,0.0465,0.9535,0.096,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_11e.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_11f.jpg,spoiled,0.9522,0.0478,0.9522,0.165,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_11f.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_120.jpg,spoiled,0.9509,0.0491,0.9509,0.170,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_120.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_121.jpg,spoiled,0.9523,0.0477,0.9523,0.157,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_121.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_122.jpg,spoiled,0.9512,0.0488,0.9512,0.512,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_122.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_123.jpg,spoiled,0.9522,0.0478,0.9522,0.246,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_123.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_124.jpg,spoiled,0.9513,0.0487,0.9513,0.061,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_124.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_125.jpg,spoiled,0.9520,0.0480,0.9520,0.294,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_125.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_126.jpg,spoiled,0.9525,0.0475,0.9525,0.044,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_126.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_127.jpg,spoiled,0.9505,0.0495,0.9505,0.184,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_127.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_128.jpg,spoiled,0.9518,0.0482,0.9518,0.121,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_128.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_129.jpg,spoiled,0.9522,0.0478,0.9522,0.042,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_129.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_12a.jpg,spoiled,0.9517,0.0483,0.9517,0.274,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_12a.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_12b.jpg,spoiled,0.9538,0.0462,0.9538,0.112,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_12b.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_12c.jpg,spoiled,0.9551,0.0449,0.9551,0.105,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_12c.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_12d.jpg,spoiled,0.9513,0.0487,0.9513,0.076,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_12d.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_12e.jpg,spoiled,0.9527,0.0473,0.9527,0.076,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_12e.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_12f.jpg,spoiled,0.9538,0.0462,0.9538,0.198,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_12f.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_130.jpg,spoiled,0.9511,0.0489,0.9511,0.341,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_130.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_131.jpg,spoiled,0.9518,0.0482,0.9518,0.044,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_131.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_132.jpg,spoiled,0.9515,0.0485,0.9515,0.193,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_132.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_133.jpg,spoiled,0.9523,0.0477,0.9523,0.022,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_133.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_134.jpg,spoiled,0.9517,0.0483,0.9517,0.214,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_134.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_135.jpg,spoiled,0.9523,0.0477,0.9523,0.280,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_135.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_136.jpg,spoiled,0.9521,0.0479,0.9521,0.417,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_136.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_137.jpg,spoiled,0.9541,0.0459,0.9541,0.560,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_137.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_138.jpg,spoiled,0.9531,0.0469,0.9531,0.049,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_138.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_139.jpg,spoiled,0.9508,0.0492,0.9508,0.152,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_139.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_13a.jpg,spoiled,0.9538,0.0462,0.9538,0.122,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_13a.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_13b.jpg,spoiled,0.9547,0.0453,0.9547,0.552,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_13b.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_13c.jpg,spoiled,0.9525,0.0475,0.9525,0.105,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_13c.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_13d.jpg,spoiled,0.9553,0.0447,0.9553,0.111,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_13d.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_13e.jpg,spoiled,0.9515,0.0485,0.9515,0.221,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_13e.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_13f.jpg,spoiled,0.9519,0.0481,0.9519,0.516,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_13f.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_140.jpg,spoiled,0.9519,0.0481,0.9519,0.252,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_140.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_141.jpg,spoiled,0.9532,0.0468,0.9532,0.258,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_141.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_142.jpg,spoiled,0.9536,0.0464,0.9536,0.098,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_142.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_143.jpg,spoiled,0.9529,0.0471,0.9529,0.078,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_143.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_144.jpg,spoiled,0.9509,0.0491,0.9509,0.261,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_144.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_145.jpg,spoiled,0.9521,0.0479,0.9521,0.602,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_145.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_146.jpg,spoiled,0.9519,0.0481,0.9519,0.238,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_146.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_147.jpg,spoiled,0.9512,0.0488,0.9512,0.634,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_147.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_148.jpg,spoiled,0.9517,0.0483,0.9517,0.556,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_148.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_149.jpg,spoiled,0.9520,0.0480,0.9520,0.237,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_149.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_14a.jpg,spoiled,0.9543,0.0457,0.9543,0.108,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_14a.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_14b.jpg,spoiled,0.9528,0.0472,0.9528,0.672,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_14b.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_14c.jpg,spoiled,0.9528,0.0472,0.9528,0.278,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_14c.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_14d.jpg,spoiled,0.9539,0.0461,0.9539,0.109,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_14d.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_14e.jpg,spoiled,0.9521,0.0479,0.9521,0.224,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_14e.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_14f.jpg,spoiled,0.9537,0.0463,0.9537,0.110,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_14f.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_150.jpg,spoiled,0.9568,0.0432,0.9568,0.329,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_150.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_151.jpg,spoiled,0.9552,0.0448,0.9552,0.166,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_151.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_152.jpg,spoiled,0.9525,0.0475,0.9525,0.228,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_152.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_153.jpg,spoiled,0.9517,0.0483,0.9517,0.059,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_153.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_154.jpg,spoiled,0.9542,0.0458,0.9542,0.102,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_154.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_155.jpg,spoiled,0.9522,0.0478,0.9522,0.277,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_155.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_156.jpg,spoiled,0.9532,0.0468,0.9532,0.046,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_156.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_157.jpg,spoiled,0.9551,0.0449,0.9551,0.078,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_157.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_158.jpg,spoiled,0.9542,0.0458,0.9542,0.069,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_158.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_159.jpg,spoiled,0.9541,0.0459,0.9541,0.900,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_159.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_15a.jpg,spoiled,0.9514,0.0486,0.9514,0.034,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_15a.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_15b.jpg,spoiled,0.9537,0.0463,0.9537,0.080,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_15b.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_15c.jpg,spoiled,0.9540,0.0460,0.9540,0.414,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_15c.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_15d.jpg,spoiled,0.9505,0.0495,0.9505,0.130,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_15d.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_15e.jpg,spoiled,0.9527,0.0473,0.9527,0.043,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_15e.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_15f.jpg,spoiled,0.9497,0.0503,0.9497,0.454,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_15f.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_160.jpg,spoiled,0.9522,0.0478,0.9522,0.248,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_160.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_161.jpg,spoiled,0.9504,0.0496,0.9504,0.112,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_161.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_162.jpg,spoiled,0.9517,0.0483,0.9517,0.035,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_162.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_163.jpg,spoiled,0.9517,0.0483,0.9517,0.025,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_163.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_164.jpg,spoiled,0.9515,0.0485,0.9515,0.197,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_164.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_165.jpg,spoiled,0.9526,0.0474,0.9526,0.209,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_165.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_166.jpg,spoiled,0.9517,0.0483,0.9517,0.193,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_166.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_167.jpg,spoiled,0.9518,0.0482,0.9518,0.320,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_167.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_168.jpg,spoiled,0.9510,0.0490,0.9510,0.022,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_168.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_169.jpg,spoiled,0.9514,0.0486,0.9514,0.292,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_169.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_16a.jpg,spoiled,0.9521,0.0479,0.9521,0.148,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_16a.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_16b.jpg,spoiled,0.9513,0.0487,0.9513,0.333,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_16b.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_16c.jpg,spoiled,0.9526,0.0474,0.9526,0.190,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_16c.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_16d.jpg,spoiled,0.9531,0.0469,0.9531,0.072,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_16d.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_16e.jpg,spoiled,0.9503,0.0497,0.9503,0.200,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_16e.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_16f.jpg,spoiled,0.9512,0.0488,0.9512,0.114,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_16f.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_170.jpg,spoiled,0.9521,0.0479,0.9521,0.178,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_170.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_171.jpg,spoiled,0.9535,0.0465,0.9535,0.035,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_171.jpg
+brown blight/UNADJUSTEDNONRAW_thumb_172.jpg,spoiled,0.9515,0.0485,0.9515,0.151,test/spoiled/brown_blight__UNADJUSTEDNONRAW_thumb_172.jpg

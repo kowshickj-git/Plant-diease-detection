@@ -1,0 +1,9 @@
+training final model on all 299 images
+[final] epoch   1/30  loss 0.5377  train-acc 0.781  37.3s
+[final] epoch   5/30  loss 0.2221  train-acc 0.993  5.7s
+[final] epoch  10/30  loss 0.1994  train-acc 1.000  5.5s
+[final] epoch  15/30  loss 0.2017  train-acc 0.997  5.6s
+[final] epoch  20/30  loss 0.1987  train-acc 1.000  5.7s
+[final] epoch  25/30  loss 0.1986  train-acc 1.000  5.7s
+[final] epoch  30/30  loss 0.1987  train-acc 1.000  5.7s
+saved D:\PROJECT\tea sickness dataset\models\tea_leaf_classifier.pt
